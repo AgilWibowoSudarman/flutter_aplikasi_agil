@@ -14,14 +14,205 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: const Center(
-        child: Text(
-          'Selamat Datang',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
-            fontSize: 20,
+      body: Column(
+        children: [
+          Row(
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(6.0),
+                child: Column(
+                  children: [
+                    CircleAvatar(
+                    backgroundColor: Colors.grey.shade200,
+                    backgroundImage:
+                        AssetImage('assets/images/lala-736.jpg')),
+                    Text(
+                    'udin',
+                    style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 10,
+                    color: Colors.grey,),
+                    ),
+                  ],
+                ),
+              ),
+               Padding(
+                 padding: const EdgeInsets.all(6.0),
+                 child: Column(
+                  children: [
+                    CircleAvatar(
+                    backgroundColor: Colors.grey.shade200,
+                    backgroundImage:
+                        AssetImage('assets/images/lala-736.jpg')),
+                    Text(
+                    'ilyas',
+                    style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 10,
+                    color: Colors.grey,),
+                    ),
+                  ],
+              ),
+               ),
+               Padding(
+                 padding: const EdgeInsets.all(6.0),
+                 child: Column(
+                  children: [
+                    CircleAvatar(
+                    backgroundColor: Colors.grey.shade200,
+                    backgroundImage:
+                        AssetImage('assets/images/lala-736.jpg')),
+                    Text(
+                    'raihan',
+                    style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 10,
+                    color: Colors.grey,),
+                    ),
+                  ],
+              ),
+               ),
+                Padding(
+                 padding: const EdgeInsets.all(6.0),
+                 child: Column(
+                  children: [
+                    CircleAvatar(
+                    backgroundColor: Colors.grey.shade200,
+                    backgroundImage:
+                        AssetImage('assets/images/lala-736.jpg')),
+                    Text(
+                    'fidly',
+                    style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 10,
+                    color: Colors.grey,),
+                    ),
+                  ],
+              ),
+               ),
+                Padding(
+                 padding: const EdgeInsets.all(6.0),
+                 child: Column(
+                  children: [
+                    CircleAvatar(
+                    backgroundColor: Colors.grey.shade200,
+                    backgroundImage:
+                        AssetImage('assets/images/lala-736.jpg')),
+                    Text(
+                    'panji',
+                    style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 10,
+                    color: Colors.grey,),
+                    ),
+                  ],
+              ),
+               ),
+                Padding(
+                 padding: const EdgeInsets.all(6.0),
+                 child: Column(
+                  children: [
+                    CircleAvatar(
+                    backgroundColor: Colors.grey.shade200,
+                    backgroundImage:
+                        AssetImage('assets/images/lala-736.jpg')),
+                    Text(
+                    'syafna',
+                    style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 10,
+                    color: Colors.grey,),
+                    ),
+                  ],
+              ),
+               ),
+
+                Padding(
+                 padding: const EdgeInsets.all(6.0),
+                 child: Column(
+                  children: [
+                    CircleAvatar(
+                    backgroundColor: Colors.grey.shade200,
+                    backgroundImage:
+                        AssetImage('assets/images/lala-736.jpg')),
+                    Text(
+                    'rosa',
+                    style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 10,
+                    color: Colors.grey,),
+                    ),
+                  ],
+              ),
+               ), 
+
+                Padding(
+                 padding: const EdgeInsets.all(6.0),
+                 child: Column(
+                  children: [
+                    CircleAvatar(
+                    backgroundColor: Colors.grey.shade200,
+                    backgroundImage:
+                        AssetImage('assets/images/lala-736.jpg')),
+                    Text(
+                    'asep',
+                    style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 10,
+                    color: Colors.grey,),
+                    ),
+                  ],
+              ),
+               ),
+
+
+                Padding(
+                 padding: const EdgeInsets.all(6.0),
+                 child: Column(
+                  children: [
+                    CircleAvatar(
+                    backgroundColor: Colors.grey.shade200,
+                    backgroundImage:
+                        AssetImage('assets/images/lala-736.jpg')),
+                    Text(
+                    'asep',
+                    style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 10,
+                    color: Colors.grey,),
+                    ),
+                  ],
+              ),
+               ),
+
+
+
+                Padding(
+                 padding: const EdgeInsets.all(6.0),
+                 child: Column(
+                  children: [
+                    CircleAvatar(
+                    backgroundColor: Colors.grey.shade200,
+                    backgroundImage:
+                        AssetImage('assets/images/lala-736.jpg')),
+                    Text(
+                    'asep',
+                    style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 10,
+                    color: Colors.grey,),
+                    ),
+                  ],
+              ),
+               ),
+
+
+            ],
           ),
-        ),
+        Expanded(
+          flex:1, child: ListView(),)
+  
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         heroTag: const Key('home'),
@@ -41,3 +232,6 @@ class _HomePageState extends State<HomePage> {
     );
   }
 }
+
+
+ 
